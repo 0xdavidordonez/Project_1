@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pathlib import Path
 import numpy as np
-import matplotlib.pyplot as plt
 import hvplot.pandas
 import plotly.express as px
 import altair as alt
