@@ -1,10 +1,7 @@
 streamlit
 pandas
 numpy
-pathlib
-matplotlib.pyplot
-hvplot.pandas
-plotly.express
+plotly
 altair
 warnings
 
