@@ -32,7 +32,7 @@ energy sector and its intersection with cryptocurrency investments.
 """)
 #BTC data
 st.markdown("### BTC Dataset")
-btc_df = pd.read_csv('BTC-USD_daily.csv', index_col='Date', parse_dates=True, infer_datetime_format=True)
+btc_df = pd.read_csv('data/BTC-USD_daily.csv', index_col='Date', parse_dates=True, infer_datetime_format=True)
 btc_df.drop(columns=['Adj Close','High', 'Low', 'Open'], inplace=True)
 btc_df.rename(columns={'Close': 'BTC close'}, inplace=True)
 st.dataframe(btc_df)
@@ -50,7 +50,7 @@ st.line_chart(btc_df['BTC close'])
 #######################################################################################################################
 #import VENAX ETF csv
 st.markdown("### VENAX Dataset")
-venax_df = pd.read_csv('VENAX_daily2.csv', index_col='Date', parse_dates=True, infer_datetime_format=True)
+venax_df = pd.read_csv('data/VENAX_daily2.csv', index_col='Date', parse_dates=True, infer_datetime_format=True)
 venax_df.head()
 
 #rename close column
