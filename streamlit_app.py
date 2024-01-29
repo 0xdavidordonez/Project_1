@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import altair as alt
-import warnings
-warnings.filterwarnings('ignore')
 
 #STEAMLIT Page layout configuration
 st.set_page_config(page_title="BTC vs. Vanguard Energy ETF Dashboard", page_icon=":bar_chart:", layout="wide")
