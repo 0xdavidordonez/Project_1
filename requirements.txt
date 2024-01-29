@@ -1,6 +1,5 @@
 streamlit
 pandas
-os
 numpy as np
 pathlib
 requests
