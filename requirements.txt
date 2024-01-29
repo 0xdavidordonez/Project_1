@@ -2,11 +2,9 @@ streamlit
 pandas
 numpy
 pathlib
-requests
 matplotlib.pyplot
 hvplot.pandas
 plotly.express
-seaborn as sns
 altair
 warnings
 
