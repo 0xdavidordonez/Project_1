@@ -1,47 +1,48 @@
-# Quantitative Analysis of Bitcoin Prices and Currency Derivatives Correlation
+# Quantitative Analysis of Bitcoin ETF Prices and Vanguard's Energy ETF 'VENAX'
 
-## I. Executive Summary (Jeanel)
+## I. Executive Summary
 
 ### A. Brief Overview
-The intersection of traditional and digital assets has become a focal point of interest in the modern financial markets . This project aims to conduct a quantitative analysis to explore potential correlations in Vanguard energy etf and Bitcoin prices.   Open interest refers to the total number of outstanding options contracts that have been traded but not yet liquidated or closed by either an offsetting trade. The average daily turnover is calculated by dividing the total value of share trading by the number of trading days during the year.
+The intersection of traditional and digital assets has become a focal point of interest in the modern financial markets. This project aims to conduct a quantitative analysis to explore potential correlations and insights between Vanguard energy ETF and Bitcoin prices.
 
 ### B. Purpose
-Derivatives hedge against price volatility and risks associated with underlying asset values. While Bitcoin typically correlates inversely with Vanguard energy etf, its volatility necessitates risk management. The aim is to determine if cryptocurrency prices can inform decision-making, risk management, and strategic planning in currency trading.
+Our initial plan to conduct a quantitative analysis on Bitcoin and foreign exchange derivatives evolved into a more focused study on the correlation between Bitcoin ETF prices and Vanguard's 'VENAX' Energy ETF. This shift is driven by the unique connection both assets share with energy usage.
 
 ## II. Introduction
 
 ### A. Background
-Bitcoin has become significant in the financial markets as it impacts the liquidity of the markets. Derivatives can protect a portfolio from unexpected risk, as it predicts uncertaining by separating intrinsic value from the trade prices. Our analysis aims to optimize Bitcoin price discovery as a correlation to speculate the future price of the Vanguard energy etf by exchange-traded contracts, and options.
+While specific safeguards have been implemented in the market with the approval of Bitcoin ETFs by the SEC as of January 10th, 2024, the decentralized nature and pronounced volatility of Bitcoin create uncertainty for both retail and institutional investors. Our analysis of Bitcoin prices and VENAX aims to offer clarity to investors seeking a hedge against the energy consumption associated with Bitcoin mining, utilizing a more stable asset tied to energy consumption. Although Bitcoin prices may experience downturns, conversely, potential profits can be realized through investments in Vanguard Energy ETF.
 
 ### B. Rationale
- Though certain protections have been established in the market as bitcoin ETPs have been approved by the SEC as of January 10th, 2024. Bitcoin's decentralized structure induced uncertainty. Our analysis of Bitcoin prices and exchange trade derivatives will induce efficiency. Bitcoin Prices go down (short) but inversely a profit can be made in Vanguard energy etf derivatives , even during a bear market. Futures contracts, and options allow participants to gain from market volatility induced by this new asset class. Our aims to mitigate opportunities both long or short as  market trends, regulatory changes, or other relevant factors become a part of the portfolios. 
+Our project focus stems from the evolving landscape of Bitcoin ETFs in the market, acknowledging the established regulatory framework while considering the unique challenges posed by Bitcoin's decentralized nature.
 
 ## III. Objectives
+Our main objectives include:
 
-We will first quantify bitcoin prices as a trend against the volume of exchange-traded derivatives by location and options trends.  We will identify potential risks, as trading opportunities are measured by the analysis. Perhaps purchasing derivative contracts as Bitcoin prices fall will offset incurred losses and perceive gains of sovereign wealth exchanges based on the underlying asset liquidity.
-## IV. Methodology (Krashawn)
+- Conducting quantitative analysis on Bitcoin ETF prices and Vanguard's 'VENAX' Energy ETF.
+- Exploring potential correlations and insights between these assets.
+- Providing valuable insights for investors interested in the energy sector and cryptocurrency investments.
+
+## IV. Methodology
 
 ### A. Data Collection
-We were able to obtain the api from https://www.coinglass.com/ to analyze various exchanges. 
-Specify the data sources you will use for analyzing Bitcoin prices and exchange trade derivatives. We used the statistical data from https://www.bis.org/ (bank for international settlements)
+We will gather historical price data for Bitcoin ETFs and Vanguard's 'VENAX' Energy ETF, along with relevant market indicators.
 
 ### B. Analysis Techniques
-   - Open Interest and Volume: Evaluate open interest and trading volume in derivatives markets to understand market participation and sentiment.
-
-- Funding Rates: In the case of perpetual swaps, monitor funding rates as they can provide insights into market sentiment.
+Our analysis techniques will include:
 
 Correlation Analysis: 
-- Analyze the correlation between Bitcoin derivatives and Vanguard energy etf or market indices. Understanding these relationships can provide insights into broader market dynamics. 
+- Analyze the correlation between Bitcoin derivatives and Vanguard energy ETF 'VENAX'. Understanding these relationships can provide insights into broader market dynamics. 
 
 
 ### C. Tools Used
-- Python libraries: pandas, Geoplot, GeoViews, hvPlot, Matplotlib.
-- Monte Carlo simulation for risk assessment.
+- We will utilize Python libraries such as pandas, numpy, plotly, altair, matplotlib, seaborn, hvplot, and pathlib for data analysis and visualization.
+- Streamlit for app deployment.
 
-## V. Bitcoin Price Analysis (David)
+## V. Bitcoin Price Analysis
 
 ### A. Historical Performance
-Bitcoin's journey from the start till now is a wild ride, showing us how it became a big deal in the digital asset world. It kicked off in 2009, and since then, it's hit some major milestones that have defined its path. There's the whole beginning phase, the first-ever transaction back in 2010 (10,000 BTC for a value that's now worth millions), and then the crazy jump to $1,000 in 2013, $10,000 in 2017, and shooting past $60,000 in 2021. Taking a closer look at these moments, we get a handle on what's driving people to jump on the Bitcoin train and how external events are affecting its value. Plus, you can't ignore the trends and the ups and downs that really shape how Bitcoin behaves in the market. Looking at how prices have moved in the past helps us spot patterns, times when things get super crazy, and maybe even figure out what could be coming next.
+The trajectory of Bitcoin from its inception to the present has been marked by significant developments, underscoring its prominence in the digital asset realm. Commencing in 2009, the cryptocurrency has achieved noteworthy milestones, including its inaugural transaction in 2010 (involving 10,000 BTC, now valued in the millions). Subsequent remarkable milestones include the notable ascent to $1,000 in 2013, $10,000 in 2017, and an impressive surge to surpass $60,000 in 2021. A thorough examination of these key events enables a comprehensive understanding of the factors propelling interest in Bitcoin and the impact of external occurrences on its valuation. Moreover, the analysis encompasses an exploration of market trends, discerning the fluctuations that significantly influence Bitcoin's market behavior. Studying historical price movements facilitates the identification of patterns, periods of heightened volatility, and offers insights into potential future developments.
 
 ### B. Technical Analysis
 In the realm of technical analysis, we delve into the current market conditions and potential future price movements of Bitcoin using various indicators. Moving averages, such as the simple moving average (SMA) and exponential moving average (EMA), offer insights into trend directions and potential reversals. The Relative Strength Index (RSI) helps us assess whether an asset is overbought or oversold, aiding in identifying potential trend reversals. The Moving Average Convergence Divergence (MACD) is instrumental in gauging the strength of a trend and identifying potential trend changes. By applying these technical indicators to Bitcoin's price charts, we aim to provide a comprehensive analysis of the current market sentiment. This technical approach allows us to assess the probabilities of future price movements, facilitating informed decision-making for investors and traders navigating the dynamic landscape of the cryptocurrency market
@@ -51,22 +52,31 @@ In the realm of technical analysis, we delve into the current market conditions 
 ### C. Fundamental Analysis
 Bitcoin's fundamental analysis hinges on its robust technological infrastructure. Built upon a decentralized and immutable blockchain, Bitcoin ensures transparent and secure transactions across a distributed network, fostering trust and resilience against fraud. Its deflationary algorithm, limiting the total supply to 21 million coins, establishes scarcity comparable to precious metals. Technological advancements, such as scalability solutions like the Lightning Network and ongoing privacy feature developments, play pivotal roles in shaping Bitcoin's evolving narrative. Understanding these technological foundations is crucial for a comprehensive assessment of Bitcoin's value, security, and utility in the broader financial landscape.
 
-## VI. Exchange Trade Derivatives Analysis (Jeanel)
+# Investment Strategy and Objective
 
-### A. Overview
-Exchange-traded derivatives statistics provide monthly and quarterly data of the number of contracts or commitments outstanding in futures and options that are trading. Referred to as open interest the foreign exchange carries interest rate futures and options. Comparisons of levels and trends in activity across different markets is fundamental to derivative analysis. Our resources included Main exchange futures and OTC foreign exchange instruments from 2022- 2014.
+## Investment Strategy
 
-### B. Opportunities
-Volatility Arbitrage could exploit the discrepancies between implied and realized volatility of Bitcoin. If the real volatility is lower than expected, a trader may sell FX options, and vice versa. Price Arbitrage may also identify differences in the same derivative across different exchanges or between the options and futures markets. Traders can exploit these price differentials for risk-free profits!
+The fund employs a "passive management" or indexing investment approach to mirror the performance of the MSCI US Investable Market Energy 25/50 Index. This index comprises stocks of large, medium-size, and small U.S. companies in the energy sector, classified under the Global Industry Classification Standard (GICS).
 
-## IX. Appendices (Jeanel)
+The GICS sector includes companies primarily involved in either:
+1. Construction or provision of oil rigs, drilling equipment, and other energy-related services and equipment (e.g., seismic data collection).
+2. Exploration, production, marketing, refining, and/or transportation of oil and gas products.
 
-- Largest derivatives exchanges worldwide from 2020 to 2022, by number of contracts traded(in millions)
-- Average daily turnover of foreign exchange transactions and derivatives in the United States from 2001 to 2019, by instrument(in billion U.S. dollars
+The fund aims to replicate the target index by investing all or substantially all of its assets in the stocks constituting the index. Each stock is held in approximately the same proportion as its weighting in the index. In cases where full replication is not feasible, the fund may sample its target index by holding stocks that collectively approximate the index in key characteristics like price/earnings ratio, earnings growth, and dividend yield.
+
+A sampling strategy is employed only when regulatory constraints or other considerations prevent the fund from fully replicating the index.
+
+## Investment Objective
+
+The Vanguard Energy Index Fund seeks to track the performance of a benchmark index that measures the investment return of energy stocks.
+
+-Growth of a $10,000 investment : January 31, 2014— December 31, 2023
+  -$13,855 Fund as of 12/31/23
+  -$14,007 Benchmark
+   as of 12/31/23
+
+
   
 
-## X. References
 
-- [Coinglass](https://coinglass.com/)
-- [BIS Data Portal](https://stats.bis.org/)
 
