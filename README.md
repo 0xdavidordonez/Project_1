@@ -52,9 +52,9 @@ In the realm of technical analysis, we delve into the current market conditions 
 ### C. Fundamental Analysis
 Bitcoin's fundamental analysis hinges on its robust technological infrastructure. Built upon a decentralized and immutable blockchain, Bitcoin ensures transparent and secure transactions across a distributed network, fostering trust and resilience against fraud. Its deflationary algorithm, limiting the total supply to 21 million coins, establishes scarcity comparable to precious metals. Technological advancements, such as scalability solutions like the Lightning Network and ongoing privacy feature developments, play pivotal roles in shaping Bitcoin's evolving narrative. Understanding these technological foundations is crucial for a comprehensive assessment of Bitcoin's value, security, and utility in the broader financial landscape.
 
-# Investment Strategy and Objective
+# Vanguard Energy Index Fund
 
-## Investment Strategy
+## VENAX Investment Strategy
 
 The fund employs a "passive management" or indexing investment approach to mirror the performance of the MSCI US Investable Market Energy 25/50 Index. This index comprises stocks of large, medium-size, and small U.S. companies in the energy sector, classified under the Global Industry Classification Standard (GICS).
 
@@ -66,7 +66,7 @@ The fund aims to replicate the target index by investing all or substantially al
 
 A sampling strategy is employed only when regulatory constraints or other considerations prevent the fund from fully replicating the index.
 
-## Investment Objective
+## Venax Growth
 
 The Vanguard Energy Index Fund seeks to track the performance of a benchmark index that measures the investment return of energy stocks.
 
